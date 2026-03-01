@@ -263,29 +263,30 @@ img {
 }
 
 .investment-name {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .investment-sep {
-    font-size: 14px;
+    font-size: 15px;
     color: #5B5449;
 }
 
 .investment-stage {
-    font-size: 14px;
+    font-size: 15px;
     color: #5B5449;
 }
 
 .investment-desc {
-    font-size: 14px;
+    font-size: 15px;
     color: #5B5449;
-    line-height: 1.4;
+    line-height: 1.5;
+    font-weight: 450;
 }
 
 /* Badges */
 .badge {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
     padding: 4px 10px;
@@ -293,6 +294,18 @@ img {
     flex-shrink: 0;
     margin-left: 16px;
     text-transform: uppercase;
+}
+
+.badge-yc {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: #FFF3E8;
+    color: #F26522;
+    text-transform: uppercase;
+    margin-left: 6px;
 }
 
 .badge-active {
