@@ -409,6 +409,18 @@ img {
     text-transform: uppercase;
 }
 
+.racing-badge-blue {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background-color: #E8EFFD;
+    color: #4A6FA5;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+
 .racing-detail {
     font-size: 14px;
     color: #5B5449;
