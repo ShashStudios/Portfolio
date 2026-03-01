@@ -134,9 +134,9 @@ img {
 }
 
 .profile-photo {
-    width: 72px;
-    height: 72px;
-    border-radius: 12px;
+    width: 96px;
+    height: 96px;
+    border-radius: 14px;
     overflow: hidden;
     flex-shrink: 0;
     margin-left: 16px;
