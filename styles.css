@@ -413,8 +413,8 @@ img {
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.05em;
-    padding: 3px 10px;
-    border-radius: 20px;
+    padding: 3px 8px;
+    border-radius: 4px;
     background-color: #E8EFFD;
     color: #4A6FA5;
     text-transform: uppercase;
