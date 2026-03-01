@@ -92,7 +92,7 @@ img {
    ============================================ */
 .content {
     flex: 1;
-    max-width: 680px;
+    max-width: 780px;
     padding: 80px 24px;
     margin: 0;
     margin-left: min(12vw, 180px);
