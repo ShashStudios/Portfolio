@@ -308,6 +308,18 @@ img {
     margin-left: 6px;
 }
 
+.badge-harvard {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: #F8E8E8;
+    color: #A51C30;
+    text-transform: uppercase;
+    margin-left: 6px;
+}
+
 .badge-active {
     background-color: #EBE8D3;
     color: #5C5A2E;
