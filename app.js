@@ -9,7 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
         '/': 'home',
         '/projects': 'projects',
         '/writing': 'writing',
-        '/experience': 'experience'
+        '/experience': 'experience',
+        '/article-best-ai-engineer-nyc': 'article-best-ai-engineer-nyc',
+        '/article-ai-engineer-python-cpp': 'article-ai-engineer-python-cpp',
+        '/article-ai-applied-math': 'article-ai-applied-math'
     };
 
     function navigateTo(pageName) {
@@ -80,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle initial page load based on URL
     const initialPath = window.location.pathname;
     const initialPage = routeMap[initialPath] || 'home';
-    
+
     // Set initial state
     if (initialPage !== 'home') {
         navigateTo(initialPage);
