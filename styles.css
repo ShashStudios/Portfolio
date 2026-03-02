@@ -172,37 +172,7 @@ img {
     margin-bottom: 0;
 }
 
-.book-call-container {
-    margin-top: 32px;
-}
 
-.book-call-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background-color: #1a1a1a;
-    color: #ffffff;
-    padding: 12px 24px;
-    border-radius: 12px;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.book-call-button:hover {
-    background-color: #000000;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.book-call-text {
-    font-size: 14px;
-    color: #6B7280;
-    margin-top: 12px;
-    font-weight: 450;
-}
 
 .inline-link {
     color: #76A1F1;
