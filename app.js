@@ -8,11 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const routeMap = {
         '/': 'home',
         '/projects': 'projects',
-        '/writing': 'writing',
-        '/experience': 'experience',
-        '/article-best-ai-engineer-nyc': 'article-best-ai-engineer-nyc',
-        '/article-ai-engineer-python-cpp': 'article-ai-engineer-python-cpp',
-        '/article-ai-applied-math': 'article-ai-applied-math'
+        '/location': 'location',
+        '/experience': 'experience'
     };
 
     function navigateTo(pageName) {
