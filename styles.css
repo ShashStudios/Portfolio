@@ -332,9 +332,26 @@ img {
     opacity: 1;
 }
 
-/* ============================================
-   Writing / Blog Items
-   ============================================ */
+.item-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5B5449;
+    background-color: #F5F4F0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    margin-left: 16px;
+    transition: all 0.2s ease;
+}
+
+.investment-item:hover .item-link {
+    background-color: #EBE8D3;
+    color: #222;
+}
+
 .writing-list {
     display: flex;
     flex-direction: column;
